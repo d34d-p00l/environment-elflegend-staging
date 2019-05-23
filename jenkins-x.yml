@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: im-jx-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: im-jx-staging
+  pipelines: {}
